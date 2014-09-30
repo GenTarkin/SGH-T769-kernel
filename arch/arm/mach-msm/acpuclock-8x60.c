@@ -169,7 +169,7 @@ static struct msm_bus_paths bw_level_tbl[] = {
 	[3] = BW_MBPS(2480), /* At least 310 MHz on bus. */
 #ifdef CONFIG_BOOST_L2_BANDWIDTH
 	[4] = BW_MBPS(3200), /* At least 360 MHz on bus. */
-	[5] = BW_MPPS(3464), /* At least 433 Mhz on bus. */
+	[5] = BW_MBPS(3464), /* At least 433 Mhz on bus. */
 #endif
 };
 
