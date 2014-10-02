@@ -1342,6 +1342,30 @@ config MSM_DALRPC_TEST
 	help
 	  Exercises DAL RPC calls to QDSP6.
 
+config MSM_KGSL_GPU_CLOCK
+	bool "Extend GPU clock freq"
+	default n
+	help
+	  Enables user selectable GPU freq 
+
+config MSM_KGSL_GPU_CLOCK_DEFAULT
+	bool "Normal (3d@266 & 2d@200)"
+	default n
+ 	help
+ 	  Default GPU clock
+
+config MSM_KGSL_GPU_CLOCK_MODERATE
+ 	bool "Moderate (3d@300 & 2d@228)"
+	default n
+ 	help
+	  Moderate GPU overclock
+
+config MSM_KGSL_GPU_CLOCK_MAX
+	bool "Maximum (3d@320 & 2d@266)"
+	default n
+	help
+ 	  Maximum GPU overclock
+
 config BOOST_L2_BANDWIDTH
 	bool "Boost L2 Bandwidth"
 	default n
