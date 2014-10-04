@@ -49,9 +49,9 @@ else
 	LINUX_COMPILE_BY='Tarky'
 fi
 if test -z "$KBUILD_BUILD_HOST"; then
-	LINUX_COMPILE_HOST='XDA dev'
+	LINUX_COMPILE_HOST='Bitcoin.org'
 else
-	LINUX_COMPILE_HOST='XDA dev'
+	LINUX_COMPILE_HOST='Bitcoin.org'
 fi
 
 UTS_VERSION="#$VERSION"
